@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy')
         {
             steps{
-                sh 'surge ./_build/ felipe.surge.sh --token $TOKEN'
+                sh 'surge ./_build/ felipe-asir2.surge.sh --token $TOKEN'
             }
         }
         
